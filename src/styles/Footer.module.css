@@ -1,0 +1,67 @@
+.largeAssortment {
+    position: relative;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #E6D9FF;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    color: var(--color-4);
+}
+
+.frameParent15 {
+position: relative;
+top: 48px;
+left: 96px;
+display: flex;
+flex-direction: column;
+color: var(--color-black);
+font-family: var(--font-quella);
+}
+
+.groupParent2 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-5xl);
+}
+
+.frameChild12 {
+width: 48px;
+position: relative;
+height: 48px;
+}
+
+.information {
+position: relative;
+color: var(--color-2);
+}
+
+.frameParent16 {
+position: relative;
+left: 892px;
+bottom: 25px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-29xl);
+}
+
+.allRightReserved {
+position: relative;
+left: 97px;
+bottom: 50px;
+font-weight: 500;
+}
+
+.buyYourDreamPlantsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}

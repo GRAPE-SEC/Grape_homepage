@@ -1,0 +1,52 @@
+.mainList {
+    position: relative;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.mainLogo {
+    position: relative;
+    bottom: 90px;
+    height: 100px;
+    width: 180px;
+    left: 10px;
+}
+
+.mainParent {
+    position: relative;
+    width: 100%;
+    top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-29xl);
+    color: var(--color-4);
+}
+
+.cart {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.frameChild {
+    width: 1px;
+    position: relative;
+    border-right: 1px solid var(--color-2);
+    box-sizing: border-box;
+    height: 25px;
+}
+
+.cartParent {
+    position: relative;
+    margin-left: auto;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-29xl);
+}

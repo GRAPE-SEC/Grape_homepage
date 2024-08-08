@@ -1,0 +1,85 @@
+.grape {
+  position: absolute;
+  top: 44px;
+  left: 96px;
+  font-size: 24px;
+  font-family: var(--font-quella);
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frameItem {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-2);
+  box-sizing: border-box;
+  height: 65px;
+}
+
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-2);
+}
+
+.buyYourDreamPlantsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.frameGroup {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+
+.frameParent {
+  position: absolute;
+  top: 123px;
+  left: 96px;
+  border-radius: 24px;
+  background-color: var(--color-1);
+  width: 1248px;
+  height: 512px;
+  overflow: hidden;
+  font-size: 64px;
+  color: var(--color-black);
+}
+
+.landingPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1280px;
+  overflow: hidden;
+}
+
+.finalDesign {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 4016px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-2);
+  font-family: var(--font-poppins);
+}
